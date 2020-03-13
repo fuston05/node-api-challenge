@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+  I learned that Express easily allows us to create api’s by acting as a ‘middleman’ between us and the nodeJS server. Express allows us to use routing and middleware to make our jobs that much easier. It has some built in middleware like the json package.
+
 - [ ] Describe Middleware?
+
+  Middleware is just that. It sits in the ‘middle’ of the request and the request handlers. It usually performs some kind of action on the request and then sends it on to the next middleware.
 
 - [ ] Describe a Resource?
 
+  Our data that we are fetching and sending is a good example of a resource. 
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+  An api can return a status code to help the client know if the request was successful.
+
 - [ ] How can we partition our application into sub-applications?
+
+  We can partition our applications into sub-applications by separating the different parts out when the become too large. We can do this by separation of concern, putting all code in a folder that pertains to same functionality. Like we keep all routers for a specific route together in one place. We could also store likeminded data together as well for example. 
 
 ## Minimum Viable Product
 
